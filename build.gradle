@@ -1,0 +1,25 @@
+apply plugin: 'war'
+
+// Versão do JAVA
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
+
+version = '1.0'
+
+// Repositório artifactory
+repositories {
+   mavenCentral()
+}
+
+
+dependencies {
+
+	providedCompile 'org.jboss.spec:jboss-javaee-all-7.0:1.0.3.Final'
+	providedCompile 'org.jboss.resteasy:resteasy-jaxrs:3.0.11.Final'
+	providedCompile 'org.jboss.resteasy:resteasy-validator-provider-11:3.0.11.Final'
+	providedCompile 'org.jboss.resteasy:resteasy-jackson2-provider:3.0.11.Final'
+	
+	compile 'org.xerial:sqlite-jdbc:3.8.11.2'
+	
+	testCompile 'junit:junit:4.12'
+}
