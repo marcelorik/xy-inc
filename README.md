@@ -9,7 +9,7 @@ O projeto foi implementado utilizando as seguintes tecnologias :
   
 ### Installation
 
-Você precisará do Gradle ( 2.10 versão utilizada ) para efetuar o build e testes do projeto.
+Você precisará do Gradle ( 2.10 versão utilizada http://gradle.org/gradle-download/ ) para efetuar o build e testes do projeto.
 
 Para compilar o projeto basta executar o comando :
 ```sh
@@ -25,7 +25,8 @@ $ gradle test
 ### Deploy
 
 O deploy do projeto no servidor wildFly pode ser efetuado manualmente ou publicando via IDE.
-**OBS. O WildFly contido no projeto já está com a última verão do deploy do projeto**
+
+**OBS. O WildFly ( 9.0.1.Final ) foi utilizado para execução do projeto. : http://wildfly.org/downloads/**
 
 ### Requests
 
